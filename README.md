@@ -3,7 +3,7 @@
  </p>
 
 # LazyAircrack ![License](https://img.shields.io/badge/License-MIT-yellow.svg) ![Version](https://img.shields.io/badge/Version-2.0-red.svg)
-The main purpose of the tool is automating wifi attack. It is a automated bash script for aircrack-ng. Crack the four way handshake and get into the network.<br/>
+The main purpose of the tool is to automate wifi attacks. It is an automated bash script for aircrack-ng. Crack the four-way handshake and get into the network.<br/>
 
 
 ## Screenshots
@@ -12,20 +12,20 @@ The main purpose of the tool is automating wifi attack. It is a automated bash s
 
 ## This tool uses 2 methods:
 **1.Wifi Hacking:**
-Get all the wireless traffic around you listed, select the victim and crack the password using handshake packet. 
-The by default wordlist for cracking passowrd is rockyou.txt from linux, don't forget to replace it with your custom dictionary as per the target or you can still choose to use the default one. 
+Get all the wireless traffic around you listed, select the victim, and crack the password using a handshake packet. 
+The default wordlist for cracking passwords is rockyou.txt from Linux, do not forget to replace it with your custom dictionary as per the target or you can still choose to use the default one. 
 <br>
 <img src="https://user-images.githubusercontent.com/46316908/103164836-3cc66180-4836-11eb-9d50-2e312c93acec.png" width="100%"></img>
 
 **2.Wifi Jammer:**
-It creates denial of service (DoS) condition against any wifi router by continously sending the deauthentication packets resulting in disrupted connection of all connected users to it.
+It creates a denial of service (DoS) condition against any Wi-Fi router by continuously sending the de-authentication packets resulting in a disrupted connection of all connected users to it.
 <br>
 <img src="https://user-images.githubusercontent.com/46316908/103164841-5798d600-4836-11eb-918f-f67847d2837f.png" width="100%"></img>
 
 <b>Note:</b>
-+ To get a handshake, there should be at least one active user using the wifi. By default the script waits 2 mins for handshake packet and checks every 20 seconds if found or not. You can change the waiting time by modifying value of variable "handshakeWait" present at line number 10 in script.
-+ If the password is not found in default wordlist try using custom wordlist, you can use tools like crunch and cupp for generating wordlist.
-+ Don't waste your time trying to attack wifi networks without password, since there is no password protection the script will not be able to determine encryption type and will exit with message "Can't find Handshake".
++ To get a handshake, there should be at least one active user using the wifi. By default, the script waits 2 mins for the handshake packet and checks every 20 seconds if found or not. You can change the waiting time by modifying the value of the variable "handshakeWait" present at line number 10 in the script.
++ If the password is not found in the default wordlist try using a custom wordlist, you can use tools like Crunch and Cupp for generating a wordlist.
++ Don't waste your time trying to attack Wi-Fi networks without a password, since there is no password protection the script will not be able to determine encryption type and will exit with the message "Can't find handshake".
 
 ## Installing and requirements
 - aircrack-ng
@@ -33,7 +33,7 @@ It creates denial of service (DoS) condition against any wifi router by continou
 - Root access
 
 ### Installing
-+ **For Linux :**
++ **For Linux:**
 ```
 ~ ❯❯❯ git clone https://github.com/3xploitGuy/lazyaircrack.git
 
@@ -46,9 +46,9 @@ It creates denial of service (DoS) condition against any wifi router by continou
 
 ## Basics
 
-> BSSID: Basic service set identifiers, it recognizes the access point or router uniquely because it has address which creates the wireless network.
+> BSSID: Basic service set identifiers, it recognizes the access point or router uniquely because it has an address that creates the wireless network.
 
-> Channel: As Wi-Fi data is digital, the signals are transmited and received on a certain frequency also known as channel.
+> Channel: As Wi-Fi data is digital, the signals are transmitted and received on a certain frequency also known as a Channel.
 
 
 ## Contact
@@ -60,7 +60,7 @@ LazyAircrack is created to help in penetration testing and it's not responsible 
 
 Feel free to discuss any issue or new feature at GitHub's new [Discussions](https://github.com/3xploitGuy/lazyaircrack/discussions).
 
-Pull requests are always welcomed.
+Pull requests are always welcome ☺.
 
 ## License
 
